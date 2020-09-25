@@ -35,6 +35,33 @@ divCol.appendChild(h1);
 
 
 
+//functions
+// function functionName(parameters){
+//     //function body
+// }
+
+function greetUser(name){
+    alert("Hello! Welcome to our page, dear " + name);
+}
+
+
+var colorInput = document.getElementById('color');
+
+changeColorButton.addEventListener('click',function(){
+    heading.style.color = colorInput.value;
+    divCol.style.backgroundColor = colorInput.value;
+});
+
+var listItems = document.getElementsByTagName('li');
+
+for(var i = 0; i < listItems.length; ++i){
+    listItems[i].addEventListener('click', function(){
+        // console.log(listItems[i]);
+    });
+}
+
+
+
 
 
 

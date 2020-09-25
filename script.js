@@ -28,10 +28,10 @@ console.log("Remainder = " + rem);
 var heading = document.getElementById('heading');
 var changeColorButton = document.getElementById('changeColorBtn');
 
-var h1 = document.createElement("h1");
-h1.innerHTML = "This is a dynamically generated heading";
-var divCol = document.getElementsByClassName("col-sm-6")[0];
-divCol.appendChild(h1);
+// var h1 = document.createElement("h1");
+// h1.innerHTML = "This is a dynamically generated heading";
+// var divCol = document.getElementsByClassName("col-sm-6")[0];
+// divCol.appendChild(h1);
 
 
 

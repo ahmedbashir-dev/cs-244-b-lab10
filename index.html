@@ -13,7 +13,7 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-sm-6">
-                <h1 id="heading">JavaScript Lab-10</h1>
+                <!-- <h1 id="heading">JavaScript Lab-10</h1>
                 <input type="text" id="color" class="form-control mb-3">
                 <button class="btn btn-danger" id="changeColorBtn">Change Color</button>
                 <ul>
@@ -22,7 +22,57 @@
                     <li>List Item 3</li>
                     <li>List Item 4</li>
                     <li>List Item 5</li>
-                </ul>
+                </ul> -->
+
+                <h2>User Registration Form</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name: </label>
+                        <input type="text" id="name" class="form-control">
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                        <div class="invalid-feedback">
+                            Username must be at least 3 characters long and at most 32 characters long. Please enter a valid username;
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email: </label>
+                        <input type="email" id="email" class="form-control">
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                        <div class="invalid-feedback">
+                            Email must include an @ sign and a . after @ 
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Password: </label>
+                        <input type="password" id="password" class="form-control" required>
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                        <div class="invalid-feedback">
+                            Length must be greater than 3 and less than 64 
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="confirm_password">Confirm Password: </label>
+                        <input type="password" id="confirm_password" class="form-control">
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                        <div class="invalid-feedback">
+                            Confirm Password match the Password 
+                        </div>
+                    </div>
+
+                    <input type="submit" id = "submit"
+                     value="Submit" class="btn btn-success">
+                </form>
 
             </div>
         </div>
@@ -32,6 +82,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
+    <script src="validation.js"></script>
 </body>
 </html>
